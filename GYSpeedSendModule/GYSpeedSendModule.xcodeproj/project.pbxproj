@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78E1A3D81F677AB600E363C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A3D71F677AB600E363C3 /* main.m */; };
+		78E1A3DB1F677AB600E363C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A3DA1F677AB600E363C3 /* AppDelegate.m */; };
+		78E1A3DE1F677AB600E363C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A3DD1F677AB600E363C3 /* ViewController.m */; };
+		78E1A3E11F677AB600E363C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E1A3DF1F677AB600E363C3 /* Main.storyboard */; };
+		78E1A3E31F677AB600E363C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E1A3E21F677AB600E363C3 /* Assets.xcassets */; };
+		78E1A3E61F677AB600E363C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E1A3E41F677AB600E363C3 /* LaunchScreen.storyboard */; };
+		78E1A3F11F677AB600E363C3 /* GYSpeedSendModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A3F01F677AB600E363C3 /* GYSpeedSendModuleTests.m */; };
+		78E1A3FC1F677AB600E363C3 /* GYSpeedSendModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A3FB1F677AB600E363C3 /* GYSpeedSendModuleUITests.m */; };
+		78E1A4121F677AD100E363C3 /* GYSpeedSendButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A40B1F677AD100E363C3 /* GYSpeedSendButton.m */; };
+		78E1A4131F677AD100E363C3 /* GYSpeedSendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A40D1F677AD100E363C3 /* GYSpeedSendManager.m */; };
+		78E1A4141F677AD100E363C3 /* GYSpeedSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A40F1F677AD100E363C3 /* GYSpeedSendView.m */; };
+		78E1A4151F677AD100E363C3 /* PHAsset+GYAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A4111F677AD100E363C3 /* PHAsset+GYAsset.m */; };
+		78E1A4181F677ADC00E363C3 /* GYShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E1A4171F677ADC00E363C3 /* GYShowViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78E1A3ED1F677AB600E363C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E1A3CB1F677AB600E363C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E1A3D21F677AB600E363C3;
+			remoteInfo = GYSpeedSendModule;
+		};
+		78E1A3F81F677AB600E363C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E1A3CB1F677AB600E363C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E1A3D21F677AB600E363C3;
+			remoteInfo = GYSpeedSendModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78E1A3D31F677AB600E363C3 /* GYSpeedSendModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYSpeedSendModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E1A3D71F677AB600E363C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78E1A3D91F677AB600E363C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78E1A3DA1F677AB600E363C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78E1A3DC1F677AB600E363C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78E1A3DD1F677AB600E363C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78E1A3E01F677AB600E363C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78E1A3E21F677AB600E363C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78E1A3E51F677AB600E363C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78E1A3E71F677AB600E363C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E1A3EC1F677AB600E363C3 /* GYSpeedSendModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYSpeedSendModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E1A3F01F677AB600E363C3 /* GYSpeedSendModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYSpeedSendModuleTests.m; sourceTree = "<group>"; };
+		78E1A3F21F677AB600E363C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E1A3F71F677AB600E363C3 /* GYSpeedSendModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYSpeedSendModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E1A3FB1F677AB600E363C3 /* GYSpeedSendModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYSpeedSendModuleUITests.m; sourceTree = "<group>"; };
+		78E1A3FD1F677AB600E363C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E1A40A1F677AD100E363C3 /* GYSpeedSendButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYSpeedSendButton.h; sourceTree = "<group>"; };
+		78E1A40B1F677AD100E363C3 /* GYSpeedSendButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYSpeedSendButton.m; sourceTree = "<group>"; };
+		78E1A40C1F677AD100E363C3 /* GYSpeedSendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYSpeedSendManager.h; sourceTree = "<group>"; };
+		78E1A40D1F677AD100E363C3 /* GYSpeedSendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYSpeedSendManager.m; sourceTree = "<group>"; };
+		78E1A40E1F677AD100E363C3 /* GYSpeedSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYSpeedSendView.h; sourceTree = "<group>"; };
+		78E1A40F1F677AD100E363C3 /* GYSpeedSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYSpeedSendView.m; sourceTree = "<group>"; };
+		78E1A4101F677AD100E363C3 /* PHAsset+GYAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+GYAsset.h"; sourceTree = "<group>"; };
+		78E1A4111F677AD100E363C3 /* PHAsset+GYAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+GYAsset.m"; sourceTree = "<group>"; };
+		78E1A4161F677ADC00E363C3 /* GYShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYShowViewController.h; sourceTree = "<group>"; };
+		78E1A4171F677ADC00E363C3 /* GYShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYShowViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78E1A3D01F677AB600E363C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E1A3E91F677AB600E363C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E1A3F41F677AB600E363C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78E1A3CA1F677AB600E363C3 = {
+			isa = PBXGroup;
+			children = (
+				78E1A3D51F677AB600E363C3 /* GYSpeedSendModule */,
+				78E1A3EF1F677AB600E363C3 /* GYSpeedSendModuleTests */,
+				78E1A3FA1F677AB600E363C3 /* GYSpeedSendModuleUITests */,
+				78E1A3D41F677AB600E363C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78E1A3D41F677AB600E363C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78E1A3D31F677AB600E363C3 /* GYSpeedSendModule.app */,
+				78E1A3EC1F677AB600E363C3 /* GYSpeedSendModuleTests.xctest */,
+				78E1A3F71F677AB600E363C3 /* GYSpeedSendModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78E1A3D51F677AB600E363C3 /* GYSpeedSendModule */ = {
+			isa = PBXGroup;
+			children = (
+				78E1A4091F677AD100E363C3 /* GYSpeedSendModule */,
+				78E1A3D91F677AB600E363C3 /* AppDelegate.h */,
+				78E1A3DA1F677AB600E363C3 /* AppDelegate.m */,
+				78E1A3DC1F677AB600E363C3 /* ViewController.h */,
+				78E1A3DD1F677AB600E363C3 /* ViewController.m */,
+				78E1A4161F677ADC00E363C3 /* GYShowViewController.h */,
+				78E1A4171F677ADC00E363C3 /* GYShowViewController.m */,
+				78E1A3DF1F677AB600E363C3 /* Main.storyboard */,
+				78E1A3E21F677AB600E363C3 /* Assets.xcassets */,
+				78E1A3E41F677AB600E363C3 /* LaunchScreen.storyboard */,
+				78E1A3E71F677AB600E363C3 /* Info.plist */,
+				78E1A3D61F677AB600E363C3 /* Supporting Files */,
+			);
+			path = GYSpeedSendModule;
+			sourceTree = "<group>";
+		};
+		78E1A3D61F677AB600E363C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78E1A3D71F677AB600E363C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78E1A3EF1F677AB600E363C3 /* GYSpeedSendModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				78E1A3F01F677AB600E363C3 /* GYSpeedSendModuleTests.m */,
+				78E1A3F21F677AB600E363C3 /* Info.plist */,
+			);
+			path = GYSpeedSendModuleTests;
+			sourceTree = "<group>";
+		};
+		78E1A3FA1F677AB600E363C3 /* GYSpeedSendModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78E1A3FB1F677AB600E363C3 /* GYSpeedSendModuleUITests.m */,
+				78E1A3FD1F677AB600E363C3 /* Info.plist */,
+			);
+			path = GYSpeedSendModuleUITests;
+			sourceTree = "<group>";
+		};
+		78E1A4091F677AD100E363C3 /* GYSpeedSendModule */ = {
+			isa = PBXGroup;
+			children = (
+				78E1A40A1F677AD100E363C3 /* GYSpeedSendButton.h */,
+				78E1A40B1F677AD100E363C3 /* GYSpeedSendButton.m */,
+				78E1A40C1F677AD100E363C3 /* GYSpeedSendManager.h */,
+				78E1A40D1F677AD100E363C3 /* GYSpeedSendManager.m */,
+				78E1A40E1F677AD100E363C3 /* GYSpeedSendView.h */,
+				78E1A40F1F677AD100E363C3 /* GYSpeedSendView.m */,
+				78E1A4101F677AD100E363C3 /* PHAsset+GYAsset.h */,
+				78E1A4111F677AD100E363C3 /* PHAsset+GYAsset.m */,
+			);
+			path = GYSpeedSendModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78E1A3D21F677AB600E363C3 /* GYSpeedSendModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E1A4001F677AB600E363C3 /* Build configuration list for PBXNativeTarget "GYSpeedSendModule" */;
+			buildPhases = (
+				78E1A3CF1F677AB600E363C3 /* Sources */,
+				78E1A3D01F677AB600E363C3 /* Frameworks */,
+				78E1A3D11F677AB600E363C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYSpeedSendModule;
+			productName = GYSpeedSendModule;
+			productReference = 78E1A3D31F677AB600E363C3 /* GYSpeedSendModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78E1A3EB1F677AB600E363C3 /* GYSpeedSendModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E1A4031F677AB600E363C3 /* Build configuration list for PBXNativeTarget "GYSpeedSendModuleTests" */;
+			buildPhases = (
+				78E1A3E81F677AB600E363C3 /* Sources */,
+				78E1A3E91F677AB600E363C3 /* Frameworks */,
+				78E1A3EA1F677AB600E363C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78E1A3EE1F677AB600E363C3 /* PBXTargetDependency */,
+			);
+			name = GYSpeedSendModuleTests;
+			productName = GYSpeedSendModuleTests;
+			productReference = 78E1A3EC1F677AB600E363C3 /* GYSpeedSendModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78E1A3F61F677AB600E363C3 /* GYSpeedSendModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E1A4061F677AB600E363C3 /* Build configuration list for PBXNativeTarget "GYSpeedSendModuleUITests" */;
+			buildPhases = (
+				78E1A3F31F677AB600E363C3 /* Sources */,
+				78E1A3F41F677AB600E363C3 /* Frameworks */,
+				78E1A3F51F677AB600E363C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78E1A3F91F677AB600E363C3 /* PBXTargetDependency */,
+			);
+			name = GYSpeedSendModuleUITests;
+			productName = GYSpeedSendModuleUITests;
+			productReference = 78E1A3F71F677AB600E363C3 /* GYSpeedSendModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78E1A3CB1F677AB600E363C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "山茶花酿酒";
+				TargetAttributes = {
+					78E1A3D21F677AB600E363C3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					78E1A3EB1F677AB600E363C3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78E1A3D21F677AB600E363C3;
+					};
+					78E1A3F61F677AB600E363C3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78E1A3D21F677AB600E363C3;
+					};
+				};
+			};
+			buildConfigurationList = 78E1A3CE1F677AB600E363C3 /* Build configuration list for PBXProject "GYSpeedSendModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78E1A3CA1F677AB600E363C3;
+			productRefGroup = 78E1A3D41F677AB600E363C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78E1A3D21F677AB600E363C3 /* GYSpeedSendModule */,
+				78E1A3EB1F677AB600E363C3 /* GYSpeedSendModuleTests */,
+				78E1A3F61F677AB600E363C3 /* GYSpeedSendModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78E1A3D11F677AB600E363C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E1A3E61F677AB600E363C3 /* LaunchScreen.storyboard in Resources */,
+				78E1A3E31F677AB600E363C3 /* Assets.xcassets in Resources */,
+				78E1A3E11F677AB600E363C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E1A3EA1F677AB600E363C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E1A3F51F677AB600E363C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78E1A3CF1F677AB600E363C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E1A4141F677AD100E363C3 /* GYSpeedSendView.m in Sources */,
+				78E1A4181F677ADC00E363C3 /* GYShowViewController.m in Sources */,
+				78E1A3DE1F677AB600E363C3 /* ViewController.m in Sources */,
+				78E1A4121F677AD100E363C3 /* GYSpeedSendButton.m in Sources */,
+				78E1A3DB1F677AB600E363C3 /* AppDelegate.m in Sources */,
+				78E1A4131F677AD100E363C3 /* GYSpeedSendManager.m in Sources */,
+				78E1A3D81F677AB600E363C3 /* main.m in Sources */,
+				78E1A4151F677AD100E363C3 /* PHAsset+GYAsset.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E1A3E81F677AB600E363C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E1A3F11F677AB600E363C3 /* GYSpeedSendModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E1A3F31F677AB600E363C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E1A3FC1F677AB600E363C3 /* GYSpeedSendModuleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78E1A3EE1F677AB600E363C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78E1A3D21F677AB600E363C3 /* GYSpeedSendModule */;
+			targetProxy = 78E1A3ED1F677AB600E363C3 /* PBXContainerItemProxy */;
+		};
+		78E1A3F91F677AB600E363C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78E1A3D21F677AB600E363C3 /* GYSpeedSendModule */;
+			targetProxy = 78E1A3F81F677AB600E363C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78E1A3DF1F677AB600E363C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E1A3E01F677AB600E363C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78E1A3E41F677AB600E363C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E1A3E51F677AB600E363C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78E1A3FE1F677AB600E363C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78E1A3FF1F677AB600E363C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78E1A4011F677AB600E363C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GYSpeedSendModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schnj.GYSpeedSendModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78E1A4021F677AB600E363C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GYSpeedSendModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schnj.GYSpeedSendModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78E1A4041F677AB600E363C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GYSpeedSendModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schnj.GYSpeedSendModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYSpeedSendModule.app/GYSpeedSendModule";
+			};
+			name = Debug;
+		};
+		78E1A4051F677AB600E363C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GYSpeedSendModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schnj.GYSpeedSendModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYSpeedSendModule.app/GYSpeedSendModule";
+			};
+			name = Release;
+		};
+		78E1A4071F677AB600E363C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GYSpeedSendModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schnj.GYSpeedSendModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GYSpeedSendModule;
+			};
+			name = Debug;
+		};
+		78E1A4081F677AB600E363C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GYSpeedSendModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schnj.GYSpeedSendModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GYSpeedSendModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78E1A3CE1F677AB600E363C3 /* Build configuration list for PBXProject "GYSpeedSendModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E1A3FE1F677AB600E363C3 /* Debug */,
+				78E1A3FF1F677AB600E363C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E1A4001F677AB600E363C3 /* Build configuration list for PBXNativeTarget "GYSpeedSendModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E1A4011F677AB600E363C3 /* Debug */,
+				78E1A4021F677AB600E363C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78E1A4031F677AB600E363C3 /* Build configuration list for PBXNativeTarget "GYSpeedSendModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E1A4041F677AB600E363C3 /* Debug */,
+				78E1A4051F677AB600E363C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78E1A4061F677AB600E363C3 /* Build configuration list for PBXNativeTarget "GYSpeedSendModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E1A4071F677AB600E363C3 /* Debug */,
+				78E1A4081F677AB600E363C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78E1A3CB1F677AB600E363C3 /* Project object */;
+}
